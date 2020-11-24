@@ -16,7 +16,7 @@ def expalain(object)
   オブジェクトを出力するとこうなります。
   #{object}
   text
-  line
+  line # これは改行を記号で表現しています
 end
 
 # ハッシュオブジェクトの書き方いろいろ

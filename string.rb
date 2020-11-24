@@ -9,6 +9,7 @@ else
   puts false
 end
 
+# これは改行を記号で表現しています
 puts "-"*20
 
 # Q2.オブジェクトIDは同じですか？
@@ -20,3 +21,10 @@ else
   puts morning.object_id
   puts evening.object_id
 end
+
+# ただし、
+# morning = "hello"
+# evening = morning
+# とした場合には
+# morning.object_id == evening.object_id
+# の返り値は true になります

@@ -9,6 +9,7 @@ else
   puts false
 end
 
+# これは改行を記号で表現しています
 puts "-"*20
 
 # Q.4 オブジェクトIDは同じですか？
